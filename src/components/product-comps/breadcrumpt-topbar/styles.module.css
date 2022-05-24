@@ -1,0 +1,21 @@
+.topbar_container {
+  display: flex;
+  justify-content: space-between;
+  height: 39px;
+}
+.ship_to {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Montserrat';
+  line-height: 14.63px;
+  color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.username {
+  color: #672900;
+  font-size: 16px;
+  line-height: 19.5px;
+  letter-spacing: -0.015em;
+}

@@ -1,0 +1,43 @@
+.cancel_order_navigation_main{
+    width: 1293px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.cancel_order_navigation_navbar_ul{
+    display: flex;
+    border-bottom: 1px solid #E0E0E0;
+    width: 1290px;
+}
+
+.cancel_order_navigation_navbar_li{
+    width: 100px;
+height: 34px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+color: #BDBDBD;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+}
+
+.cancel_order_navigation_navbar{
+    width: 1293px;
+}
+
+.cancel_order_navigation_text{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cancel_order_navigation_navbar_li:hover {
+    color: #212121; 
+    border-bottom: 2px solid #70A42F; 
+    cursor: pointer; 
+}

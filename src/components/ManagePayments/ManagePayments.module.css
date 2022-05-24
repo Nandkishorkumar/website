@@ -1,0 +1,133 @@
+.breadcrume{
+    margin-left: 18px;
+}
+.box{
+    margin-left: 130px;    
+     display: block;
+   float: left;
+}
+.addCardNotification{
+    width: 1080px;
+    height: 97px;
+    background: #FFF3CD;
+    border: 1px solid #FFEEBA;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.notification{
+    width: 572px;
+    height: 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    color: #672900;
+}
+.noyificationButton{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(180deg, #88C54C 0%, #73A831 100%);
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    color: white;
+    height: 36px;
+    width: 200px;
+}
+.line{
+    margin-top: 58px;
+    margin-left: 140px;
+    width: 1069px;
+    height: 0px;
+    border: 1px solid #E0E0E0;
+}
+.prefrencediv{
+    margin-top: 63px;
+    width: 396px;
+    float: right;
+}
+.simpleText{
+    width: 278px;
+    height: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+    color: #212121;
+}.simpleText1{
+    width: 200px;
+    height: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.015em;
+    color: #0061A8;
+    margin-left: 28%;
+}
+.PymentOption{
+width: 1058px;
+ margin-top: 115px;
+ margin-left: 135px;
+}
+.text{
+    width: 846px;
+    height: 22px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+    color: #212121;
+    
+}
+.compoHeader{
+    width: 635px;
+    height: 26px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #212121;
+    justify-content: space-between;
+    margin-left: 135px;
+    margin-top: 73px;
+}
+.tableHead{
+    width: 1170px;
+    height: 66px;
+    background: #F8FFF5;
+    border: 1px solid #A2CF96;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(213, 230, 208, 0.5);
+    border-radius: 20px;
+}
+.delete{
+    width: 1170px;
+    height: 66px;
+    left: 135px;
+    top: 1219px;
+    
+    background: #F8FFF5;
+    border: 1px solid #A2CF96;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(213, 230, 208, 0.5);
+    border-radius: 20px;
+}

@@ -1,0 +1,170 @@
+.main_theading {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.theading {
+  width: 704px;
+  height: 49px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #672900;
+  justify-content: center;
+}
+
+.ttouch {
+  width: 550px;
+  height: 30px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  color: #b7774c;
+}
+
+.main_contact {
+  height: 700px;
+  margin-top: 57px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url('./../../../../public/Home/assets/touchbackground.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
+
+.contact_main {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.girl{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 310px;
+    justify-content: space-between;
+}
+.girlh {
+  width: 97px;
+  height: 30px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #672900;
+  margin-top: 24px;
+  display: flex;
+    justify-content: end;
+}
+
+.girlt {
+  width: 147px;
+  height: 98px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #87522f;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.mail{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 260px;
+    justify-content: space-between;
+}
+.mailh {
+  width: 124px;
+  height: 30px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #672900;
+  margin-top: 15px;
+}
+
+.mailt {
+  width: 222px;
+  height: 61px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #87522f;
+}
+
+.chat{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    justify-content: space-between;
+}
+
+.chath {
+  width: 186px;
+  height: 43px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #672900;
+  margin-top: 10px;
+}
+
+.chatb {
+  width: 138px;
+  height: 34px;
+  background: #70a42f;
+  border-radius: 38px;
+  color: #ffffff;
+}
+
+.full_contact {
+  width: 800px;
+  display: flex;
+  margin-top: 50px;
+}

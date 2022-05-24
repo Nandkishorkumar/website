@@ -1,0 +1,139 @@
+query Orders {
+  orders {
+    data {
+      id
+    }
+  }
+}
+# query OrderStatuses {
+#   order_statuses {
+#     data {
+#       id
+#       name
+#       serial
+#     }
+#   }
+# }
+
+query Order($tracking_number: String, $id: ID) {
+  order(tracking_number: $tracking_number, id: $id) {
+    id
+    tracking_number
+    customer_contact
+    customer {
+      name
+    }
+    status {
+      id
+      name
+      color
+      serial
+    }
+    products {
+      id
+      name
+      image {
+        id
+        original
+        thumbnail
+      }
+      slug
+      pivot {
+        order_quantity
+        unit_price
+        subtotal
+      }
+    }
+    amount
+    sales_tax
+    total
+    paid_total
+    payment_id
+    payment_gateway
+    coupon {
+      code
+      amount
+      type
+    }
+    discount
+    delivery_fee
+    delivery_time
+    coupon {
+      id
+      code
+    }
+    billing_address {
+      country
+      city
+      state
+      zip
+      street_address
+    }
+    shipping_address {
+      country
+      city
+      state
+      zip
+      street_address
+    }
+    created_at
+  }
+}
+mutation CreateOrder($input: createOrderInput) {
+  createOrder(input: $input) {
+    tracking_number
+    customer {
+      name
+    }
+    status {
+      id
+      name
+    }
+    products {
+      id
+      image {
+        id
+        original
+        thumbnail
+      }
+      slug
+      pivot {
+        order_quantity
+        unit_price
+        subtotal
+      }
+    }
+    amount
+    sales_tax
+    total
+    paid_total
+    payment_id
+    payment_gateway
+    coupon {
+      code
+      amount
+      type
+    }
+    discount
+    delivery_fee
+    delivery_time
+    coupon {
+      id
+      code
+    }
+    billing_address {
+      country
+      city
+      state
+      zip
+      street_address
+    }
+    shipping_address {
+      country
+      city
+      state
+      zip
+      street_address
+    }
+  }
+}

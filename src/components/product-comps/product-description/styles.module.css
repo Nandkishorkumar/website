@@ -1,0 +1,32 @@
+.description_text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.015em;
+
+  /* Kisaan Text Color */
+
+  color: #212121;
+  max-width: 786px;
+}
+
+.more_btn {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.015em;
+
+  /* Kisaan Text Color */
+
+  color: #0061a8;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.more_btn:hover {
+  text-decoration: underline;
+}

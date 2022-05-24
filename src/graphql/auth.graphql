@@ -1,0 +1,180 @@
+mutation Login($email: String!, $password: String!) {
+  login(input: { email: $email, password: $password }) {
+    token
+    permissions
+  }
+}
+
+mutation Logout {
+  logout
+}
+
+mutation Register($name: String!, $email: String!, $password: String!) {
+  register(input: { name: $name, email: $email, password: $password }) {
+    token
+    permissions
+  }
+}
+
+mutation ChangePassword($input: changePasswordInput) {
+  changePassword(input: $input) {
+    message
+    success
+  }
+}
+
+mutation ForgetPassword($input: forgetPasswordInput) {
+  forgetPassword(input: $input) {
+    message
+    success
+  }
+}
+mutation VerifyForgetPasswordToken($input: verifyForgetPasswordTokenInput) {
+  verifyForgetPasswordToken(input: $input) {
+    message
+    success
+  }
+}
+mutation ResetPassword($input: resetPasswordInput) {
+  resetPassword(input: $input) {
+    message
+    success
+  }
+}
+
+mutation UpdateCustomer(
+  $id: ID!
+  $name: String
+  $profile: ProfileHasOne
+  $address: AddressHasMany
+) {
+  update(
+    input: { id: $id, name: $name, profile: $profile, address: $address }
+  ) {
+    id
+    name
+    email
+    profile {
+      id
+      avatar {
+        id
+        thumbnail
+        original
+      }
+      bio
+      socials {
+        type
+        link
+      }
+      contact
+    }
+    address {
+      title
+      default
+      address {
+        country
+        city
+        state
+        zip
+      }
+      type
+    }
+  }
+}
+
+query Customer {
+  me {
+    id
+    name
+    email
+    profile {
+      id
+      avatar {
+        id
+        thumbnail
+        original
+      }
+      bio
+      socials {
+        type
+        link
+      }
+      contact
+    }
+    address {
+      id
+      title
+      default
+      type
+      address {
+        country
+        city
+        state
+        zip
+        street_address
+      }
+    }
+    orders {
+      id
+      tracking_number
+      status {
+        id
+        name
+        serial
+      }
+      amount
+      sales_tax
+      total
+      paid_total
+      payment_id
+      payment_gateway
+      coupon {
+        id
+        code
+      }
+      discount
+      delivery_fee
+      delivery_time
+      created_at
+      updated_at
+      billing_address {
+        country
+        city
+        state
+        zip
+        street_address
+      }
+      shipping_address {
+        country
+        city
+        state
+        zip
+        street_address
+      }
+      products {
+        # id
+        name
+        price
+        sale_price
+        created_at
+        image {
+          id
+          original
+          thumbnail
+        }
+        variation_options {
+          id
+          title
+        }
+        pivot {
+          variation_option_id
+          order_quantity
+          unit_price
+          subtotal
+        }
+        quantity
+        unit
+      }
+    }
+  }
+}

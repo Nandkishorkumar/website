@@ -1,0 +1,33 @@
+.top_container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 45px;
+}
+.heading {
+  font-size: 26px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  line-height: 31.69px;
+  letter-spacing: -0.015em;
+  color: #672900;
+}
+.have_a_question {
+  border-radius: 40px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+  font-size: 15px;
+  font-weight: 600;
+  font-family: Montserrat;
+  line-height: 38px;
+  width: 192px;
+  transition: 0.3s;
+}
+
+.have_a_question:active {
+  box-shadow: none;
+  outline: none;
+}
+
+.have_a_question:focus {
+  outline: none;
+}

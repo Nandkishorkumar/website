@@ -1,0 +1,29 @@
+.heading{
+    width: 167px;
+height: 32px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
+color: #672900;
+}
+
+.text{
+    width: 467px;
+height: 22px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #757575;
+}
+.main{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

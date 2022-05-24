@@ -1,0 +1,15 @@
+.name_rating_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product_name {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: -0.015em;
+
+  color: #672900;
+}

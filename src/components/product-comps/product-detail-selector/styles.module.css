@@ -1,0 +1,44 @@
+.detail_selector {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  /* identical to box height */
+
+  letter-spacing: -0.015em;
+
+  /* Kisaan Dark Brown */
+
+  color: #672900;
+  border-top: 7px solid #ff7324;
+  width: 196px;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.not_selected {
+  margin-right: 10px;
+
+  cursor: pointer;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  /* identical to box height */
+
+  letter-spacing: -0.015em;
+
+  /* Kisaan Dark Brown */
+
+  color: #672900;
+  width: 196px;
+  text-align: center;
+  border-top: 7px solid #bdbdbd;
+}
+
+.detail_selector_container {
+  display: flex;
+}

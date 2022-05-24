@@ -1,0 +1,153 @@
+.container_cart {
+  width: 221.06px;
+  height: 396.12px;
+  background: #ffffff;
+  border: 2px solid #f3f3f3;
+  box-sizing: border-box;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.container_cart:hover,
+.container_cart:focus {
+  transform: scale(1.1);
+  box-shadow: 0px 10px 20px rgba(124, 124, 124, 0.25)
+}
+
+.main_product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 700px;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.ptouch {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #b7774c;
+}
+
+.main__cart {
+  display: flex;
+  width: 956.67px;
+  height: 465.48px;
+  justify-content: space-around;
+}
+
+.cart_image {
+  width: 194.77px;
+  height: 225.25px;
+  border-radius: 20px;
+}
+
+.text_price {
+  width: 96.79px;
+  height: 43.62px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  color: #672900;
+}
+
+.text_quant {
+  width: 53px;
+  height: 17px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.015em;
+  color: #212121;
+}
+
+.add_to_cart {
+  background: #ffffff;
+  border: 2px solid #672900;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding-left: 8px;
+  padding-right: 10px;
+  height: 34px;
+  width: 194px;
+  background: #87522f;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.cartprice {
+  width: 209px;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 15px;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.product_badge {
+  top: -1.5rem;
+  right: -12px;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  position: absolute;
+}
+
+.image_text {
+  left: 12%;
+  color: #ffffff;
+  bottom: 1rem;
+  margin: auto;
+  position: absolute;
+  font-size: 19px;
+  font-style: normal;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: bold;
+  line-height: 23px;
+  letter-spacing: -0.015em;
+}
+
+.product_img {
+  position: relative;
+}
+
+.hearticonbutton {
+  position: absolute;
+  left: 165px;
+  width: 23.9px;
+  height: 23.9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border: 2px solid #ffffff;
+}

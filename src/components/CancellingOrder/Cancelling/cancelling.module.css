@@ -1,0 +1,97 @@
+.radio{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+letter-spacing: -0.015em;
+color: #757575;
+height: 10px;
+}
+
+.textfield{
+    margin-top: 20px;
+    width: 541px;
+height: 157px;
+background: #FFFFFF;
+border: 1px solid #E0E0E0;
+box-sizing: border-box;
+border-radius: 8px;
+
+}
+
+.textfield::placeholder{
+    padding-top: 10px;
+    padding-left: 24px;
+}
+
+/* .rradio{
+    width: 406px;
+height: 27px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+color: #212121;
+} */
+
+.p{
+    width: 376px;
+height: 29px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+color: #87522F;
+margin-left: 30px;
+}
+
+.p2{
+    width: 405px;
+height: 69px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+color: #5E5E5E;
+margin-left: 30px;
+}
+
+.super_main_class{
+    display: flex;
+    height: 720px;
+}
+
+.buttonp1{
+    width: 294px;
+height: 17px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+letter-spacing: -0.015em;
+color: #FFFFFF;
+display: flex;
+    align-items: center;
+}
+.buttonp2{
+    width: 294px;
+height: 17px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+letter-spacing: -0.015em;
+color:  #212121;
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_button{
+    margin-left: 278px;
+    margin-top: 89px;
+}
+
+.right_main{
+    width: 627px;
+}

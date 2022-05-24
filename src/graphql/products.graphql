@@ -1,0 +1,28 @@
+# import ProductParts from './product.fragment.graphql'
+# import PaginatorParts from './paginator.fragment.graphql'
+query Products(
+  $orderBy: [ProductsOrderByOrderByClause!]
+  $text: String
+  $status: String
+  $hasType: ProductsHasTypeWhereConditions
+  $hasCategories: ProductsHasCategoriesWhereConditions
+  $first: Int
+  $page: Int
+) {
+  products(
+    orderBy: $orderBy
+    text: $text
+    status: $status
+    hasType: $hasType
+    hasCategories: $hasCategories
+    first: $first
+    page: $page
+  ) {
+    data {
+      ...ProductParts
+    }
+    paginatorInfo {
+      ...PaginatorParts
+    }
+  }
+}

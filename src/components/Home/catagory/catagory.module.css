@@ -1,0 +1,86 @@
+.catagory_main {
+  width: 100%;
+  height: 700px;
+  /* background: #FFF8F2; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./../../../../public/Home/assets/catagorybackground.svg");
+   /* background-image: url('./../../../../public/Home/assets/touchbackground.svg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.main__cart {
+  display: flex;
+  width: 956.67px;
+  height: 400.48px;
+}
+
+.container__cart {
+  width: 221.06px;
+  height: 396.12px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.cart_catagory {
+  width: 192px;
+  height: 138px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container__cart:hover {
+  border: 2px solid #a13a00;
+}
+
+.text_head {
+  width: 192px;
+  height: 24px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #672900;
+}
+
+.text_text {
+  width: 116px;
+  height: 90px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #b7774c;
+}
+
+.ptouch{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #b7774c;
+}
